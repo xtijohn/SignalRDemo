@@ -2,17 +2,22 @@
 //Immediately Invoked Function Expression (IIFE)
 //we group everything under a function to specify the scope of each functionality.
 (function () {
+    var myHub = $.connection.myHub;
     $.connection.hub.start()
         .done(function () {
-            console.log("IT WORKED!");
-            $.connection.myHub.server.announce("Connected!!");
+            writeToPage("IT WORKED!" + "<br/>");
+            myHub.server.announce("Connected!!");
         })
         .fail(function () {
-            alert("ERROR!!!");
+            writeToPage("ERROR connecting to SignalR!");
         });
 
     //client side announce function!
-    $.connection.myHub.client.announce = function (message) {
-        $("#welcome-messages").append(message + "<br/>");
+    myHub.client.announce = function (message) {
+        writeToPage(message);
+    }
+
+    var writeToPage = function (message) {
+        $("#welcome-messages").append( message + "<br/>");
     }
 })()
