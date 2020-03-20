@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalebSignalRDemo", "CalebSignalRDemo\CalebSignalRDemo.csproj", "{3D3C79C4-19A2-4CDB-9D09-EA3C0A8EFEEF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3D3C79C4-19A2-4CDB-9D09-EA3C0A8EFEEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D3C79C4-19A2-4CDB-9D09-EA3C0A8EFEEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D3C79C4-19A2-4CDB-9D09-EA3C0A8EFEEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D3C79C4-19A2-4CDB-9D09-EA3C0A8EFEEF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A24370D5-0FE8-443C-8FBD-32EE40F39D70}
+	EndGlobalSection
+EndGlobal
